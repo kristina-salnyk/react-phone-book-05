@@ -2,17 +2,17 @@ import { FieldInput, FieldLabel } from './Filter.styled';
 import { nanoid } from 'nanoid';
 import { useDispatch, useSelector } from 'react-redux';
 import { changeFilter } from '../../redux/filterSlice';
-import { getFilter } from '../../redux/selectors';
+import { selectFilter } from '../../redux/selectors';
 
-const Filter = ( ) => {
+const Filter = () => {
   const filterInputId = nanoid();
 
-  const filter = useSelector(getFilter);
+  const filter = useSelector(selectFilter);
   const dispatch = useDispatch();
 
-  const handleFilterChange = (event) =>{
+  const handleFilterChange = event => {
     dispatch(changeFilter(event.currentTarget.value));
-  }
+  };
 
   return (
     <div>

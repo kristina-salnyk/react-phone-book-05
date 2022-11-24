@@ -3,7 +3,11 @@ import ContactList from './ContactList';
 import Filter from './Filter';
 import { Box } from './Box';
 import { Title } from './App.styled';
-import { getError, getIsLoading, getVisibleContacts } from '../redux/selectors';
+import {
+  selectError,
+  selectIsLoading,
+  selectVisibleContacts,
+} from '../redux/selectors';
 import { useDispatch, useSelector } from 'react-redux';
 import { useEffect } from 'react';
 import { getContacts } from '../redux/operations';
@@ -14,9 +18,9 @@ import Message from './Message';
 export const App = () => {
   const dispatch = useDispatch();
 
-  const contacts = useSelector(getVisibleContacts);
-  const isLoading = useSelector(getIsLoading);
-  const error = useSelector(getError);
+  const contacts = useSelector(selectVisibleContacts);
+  const isLoading = useSelector(selectIsLoading);
+  const error = useSelector(selectError);
 
   useEffect(() => {
     dispatch(getContacts());
