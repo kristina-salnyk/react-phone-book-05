@@ -1,8 +1,8 @@
 {
-  "name": "react-phonebook-05",
+  "name": "react-phone-book-05",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kristina_salnyk.github.io/react-phonebook-05",
+  "homepage": "https://kristina_salnyk.github.io/react-phone-book-05",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.0",
     "@testing-library/jest-dom": "^5.16.3",
