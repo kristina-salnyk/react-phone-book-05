@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/react-phonebook-05/static/css/main.83596ed8.css",
-    "main.js": "/react-phonebook-05/static/js/main.e090428f.js",
-    "static/media/no-results.png": "/react-phonebook-05/static/media/no-results.d438399ff68428d0774c.png",
-    "static/media/error.png": "/react-phonebook-05/static/media/error.5496863544fb5a519bcf.png",
-    "index.html": "/react-phonebook-05/index.html",
-    "static/media/delete-icon.svg": "/react-phonebook-05/static/media/delete-icon.3ffdf82aa61e590410183e507576fb34.svg",
-    "main.83596ed8.css.map": "/react-phonebook-05/static/css/main.83596ed8.css.map",
-    "main.e090428f.js.map": "/react-phonebook-05/static/js/main.e090428f.js.map"
+    "main.css": "/react-phone-book-05/static/css/main.83596ed8.css",
+    "main.js": "/react-phone-book-05/static/js/main.67b2dc9f.js",
+    "static/media/no-results.png": "/react-phone-book-05/static/media/no-results.d438399ff68428d0774c.png",
+    "static/media/error.png": "/react-phone-book-05/static/media/error.5496863544fb5a519bcf.png",
+    "index.html": "/react-phone-book-05/index.html",
+    "static/media/delete-icon.svg": "/react-phone-book-05/static/media/delete-icon.3ffdf82aa61e590410183e507576fb34.svg",
+    "main.83596ed8.css.map": "/react-phone-book-05/static/css/main.83596ed8.css.map",
+    "main.67b2dc9f.js.map": "/react-phone-book-05/static/js/main.67b2dc9f.js.map"
   },
   "entrypoints": [
     "static/css/main.83596ed8.css",
-    "static/js/main.e090428f.js"
+    "static/js/main.67b2dc9f.js"
   ]
 }
